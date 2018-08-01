@@ -1,0 +1,9 @@
+[client]
+database = gsm
+user = root
+host = localhost
+port = 3306
+password ='houzen123'
+default-character-set =utf8
+wait_timeout = 604800
+interactive_timeout = 14400

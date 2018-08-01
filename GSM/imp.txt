@@ -1,0 +1,4 @@
+find . -path "*/*.pyc"  -delete
+dict([(f.name,f.get_internal_type()) for f in um.Feedback._meta.get_fields()])
+set(model_to_dict(um.Feedback).keys())
+pip install --upgrade google-api-python-client

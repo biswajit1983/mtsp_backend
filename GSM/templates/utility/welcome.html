@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table,
+    th,
+    td {}
+
+    th,
+    td {
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table style="width:100%;height:100%;background-color:#F8FAFA">
+    <tbody>
+      <tr>
+        <td style="padding:2em 0%;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table style="color:#8FA0A0;width:100%;background-color:#FFF;">
+            <tr>
+              <td style="box-shadow: 0 5px 5px -5px #ddd;text-align:center;border-top:5px solid #333944;">
+                <img src="http://res.cloudinary.com/duvhz1xyw/image/upload/v1513873522/logo_ghkv2z.png" style="width:10%">
+              </td>
+            </tr>
+            <tr>
+              Hi Hidemi, you got a message from the following person:
+            </tr>
+            <tr>
+              <p>
+                <b>Full Name: </b>{{user.first_name}} {{user.last_name}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Email: </b>{{user.email}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Country: </b>{{user.country}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Risk Assets: </b>{{risk_assets}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Stock Trading Experience: </b>{{feedback.stock_trading_experience}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Bond Trading Experience: </b>{{feedback.bond_trading_experience}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>Futures Trading Experience: </b>{{feedback.futures_trading_experience}}</p>
+
+            </tr>
+            <tr>
+              <p>
+                <b>FX Trading Experience: </b>{{feedback.FX_trading_experience}}</p>
+
+            </tr>
+            <tr>
+
+              <p>
+                <b>Message:</b>
+              </p>
+
+
+              <p>{{feedback.feedback}}</p>
+
+            </tr>
+            <!-- <tr>
+          <td style="padding:1em 4em">
+            <p style="line-height:35px">
+              We are pleased to intorduce you and {{ first_name }}, as we have acknowledged {{ first_name }}'s interest in your product and you can contact him soon.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:1em 4em;">
+            Best Wishes,
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:1em 4em;">
+            Global Systems Management
+          </td>
+        </tr> -->
+          </table>
+          <table>
+            <tr>
+              <p style="color:rgb(129,148,148);margin:0px">Good Luck</p>
+            </tr>
+    </tbody>
+    </table>
+
+</body>
+
+</html>

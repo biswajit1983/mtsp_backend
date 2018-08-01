@@ -1,0 +1,9 @@
+[client]
+database = gsm
+user = gsm_cloudsmiths
+host = db.staging.globalsystemsmanagement.net
+port = 3306
+password ='GSM2o17!2'
+default-character-set =utf8
+wait_timeout = 604800
+interactive_timeout = 14400
